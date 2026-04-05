@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - DataSwift</title>
+
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+  <main class="login-container">
+
+    <div class="login-box">
+
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="assets/Logo_DataSwift.png" alt="DataSwift">
+        <span>DataSwift</span>
+      </div>
+
+      <!-- TÍTULO -->
+      <h1>Faça seu Login<span class="dot">.</span></h1>
+      <p>Bem vindo ao nosso sistema</p>
+
+      <!-- FORM -->
+      <form>
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Senha">
+
+        <button type="button" onclick="entrar()">Entrar</button>
+      </form>
+
+    </div>
+
+  </main>
+
+  <script>
+    function entrar(){
+      window.location.href = "pages/dashboard_motorista.html";
+    }
+  </script>
+
+</body>
+</html>

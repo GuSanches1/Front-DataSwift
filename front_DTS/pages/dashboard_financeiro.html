@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Financeiro</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/dashboard_financeiro.css"/>
+  </head>
+
+  <body>
+    <div id="header"></div>
+
+    <main class="container">
+      <!-- TOPO -->
+      <div class="topo">
+        <h1>Dashboard Financeiro</h1>
+        <p>Visão geral do sistema de reembolsos</p>
+      </div>
+
+      <!-- CARDS -->
+      <div class="cards">
+        <div class="card">
+          <h3>Total de Despesas</h3>
+          <span>R$ 12.500</span>
+        </div>
+
+        <div class="card">
+          <h3>Pendentes</h3>
+          <span>8</span>
+        </div>
+
+        <div class="card">
+          <h3>Pagos</h3>
+          <span>25</span>
+        </div>
+
+        <div class="card">
+          <h3>Solicitações</h3>
+          <span>33</span>
+        </div>
+      </div>
+
+      <!-- CONTEÚDO -->
+      <div class="conteudo">
+        <!-- MOVIMENTAÇÕES -->
+        <div class="box">
+          <h2>Últimas Movimentações</h2>
+
+          <ul class="lista">
+            <li>João - R$200 - <span class="pendente">Pendente</span></li>
+            <li>Maria - R$500 - <span class="pago">Pago</span></li>
+            <li>Pedro - R$120 - <span class="pago">Pago</span></li>
+            <li>Ana - R$300 - <span class="pendente">Pendente</span></li>
+          </ul>
+        </div>
+
+        <!-- AÇÕES -->
+        <div class="box">
+          <h2>Ações Rápidas</h2>
+
+          <div class="acoes">
+            <button>Aprovar Despesas</button>
+            <button>Ver Relatórios</button>
+            <button>Controle Financeiro</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="footer"></div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
